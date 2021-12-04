@@ -1,0 +1,34 @@
+The coding test consists of building a web application which contains a Front End. The coding exercise should not take more than a couple of hours but feel free to take as much time as you want. 
+We will be looking and paying attention to the implementation of the code and use of best practices, like SOLID, Design Patterns, Clean Code. We don’t expect to see many design patterns for the entire application but you can apply your Design Pattern knowledge as you feel is appropriate.
+ 
+Angular Front End
+Front End should be created in Angular 7+. Any UI libraries, like Bootstrap, can be used but you don’t have to use any. We are not going to pay attention to the Design of the UI; only functionality is important.
+ 
+The UI should allow the following functionality:
+•	Display all the Transactions
+•	Filter by Date / Description (using dropdown)
+•	Transactions type information should be loaded from the REST API and not hard-coded in the UI
+ 
+The following Transaction Information should be displayed:
+	Date
+	Description
+	Deposits
+	Withdrawls
+	Balance
+ 
+Filter transaction dropdown should be created as a separate component. 
+ 
+C# REST API
+A skeleton REST API has been provided
+
+The REST API should allow to:
+•	Get All Transactions
+•	Get All Transaction Types (description)
+ 
+ 
+Implement it in a way that it can easily be extended in future with minimum modification of the existing code. 
+ 
+Testing
+Write any unit tests as required: Unit Tests, Integration Tests, REST API Tests, DB Tests, Angular / Jasmine Tests. We will not pay attention to the coverage.
+ 
+ 
